@@ -3,5 +3,6 @@ import java.util.*;
 public class Bai_6 {
     public static void main(String [] args){
     System.out.print("xin chao day la cap nhat ");
+    System.out.print("Cap nhat lan ");
 }
 }
