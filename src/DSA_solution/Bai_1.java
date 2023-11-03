@@ -12,6 +12,7 @@ public class Bai_1{
     public static void Try(int i){
     for(int j=a[i-1]+1;j<=n-k+i;j++){
         a[i]=j;
+        System.out.print(a[i]+" ");
         if(i==k){
             int sum=0;
             for(int z=1;z<=k;z++){
