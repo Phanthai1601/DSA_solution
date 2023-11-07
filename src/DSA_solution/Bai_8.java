@@ -11,7 +11,7 @@ public class Bai_8 {
     public static void Try(int i){
         for(int j=1;j<=n;j++){
             if(hang[j]==1&&d1[i-j+n]==1&&d2[i+j-1]==1){
-                x[i]=j;
+                //x[i]=j;
                 hang[j]=d1[i-j+n]=d2[i+j-1]=0;
                 if(i==n){
                     ans++;

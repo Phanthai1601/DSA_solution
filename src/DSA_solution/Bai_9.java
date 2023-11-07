@@ -24,7 +24,7 @@ public class Bai_9 {
        }
        for(int k=0;k<4;k++){
            int i1=i+dx[k],j1=j+dy[k];
-           if(i1>=n&&i1<=n&&j1>=1&&j1<=n&&a[i1][j1]==1){
+           if(i1>=1&&i1<=n&&j1>=1&&j1<=n&&a[i1][j1]==1){
                a[i1][j1]=0;
                Try(i1,j1,s+p.charAt(k));
                a[i1][j1]=1;
