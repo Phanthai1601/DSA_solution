@@ -129,17 +129,17 @@ public class Manager {
                     int x=sc.nextInt();
                     sc.nextLine();
                     if(x==1){
-                        System.out.println("Nhap vao Id sinh vien ban muon sua :");
+                        System.out.print("Nhap vao Id sinh vien ban muon sua :");
                         int fID=sc.nextInt();
                         int NewID;
                         String newname;
                         double newdiem;
-                    System.out.println("Nhap vao ID  moi cua sinh vien :");
+                    System.out.print("Nhap vao ID  moi cua sinh vien :");
                     NewID =sc.nextInt();
                     sc.nextLine();
-                    System.out.println("Nhap vao ten moi cua sinh vien :");
+                    System.out.print("Nhap vao ten moi cua sinh vien :");
                     newname=sc.nextLine();
-                    System.out.println("Nhap vao diem trung binh moi cua sinh vien :");
+                    System.out.print("Nhap vao diem trung binh moi cua sinh vien :");
                     newdiem=sc.nextDouble();
                     sc.nextLine();
                         for(int i=0;i<count;i++){if(fID==Mylist[i].getID()){
@@ -152,12 +152,12 @@ public class Manager {
                         int NewID;
                         String newname;
                         double newdiem;
-                    System.out.println("Nhap vao ID  moi cua sinh vien :");
+                    System.out.print("Nhap vao ID  moi cua sinh vien :");
                     NewID =sc.nextInt();
                     sc.nextLine();
-                    System.out.println("Nhap vao ten moi cua sinh vien :");
+                    System.out.print("Nhap vao ten moi cua sinh vien :");
                     newname=sc.nextLine();
-                    System.out.println("Nhap vao diem trung binh moi cua sinh vien :");
+                    System.out.print("Nhap vao diem trung binh moi cua sinh vien :");
                     newdiem=sc.nextDouble();
                     sc.nextLine();
                         for(int i=0;i<count;i++){
